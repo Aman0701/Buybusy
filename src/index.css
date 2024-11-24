@@ -1,0 +1,353 @@
+/* Reset default margin and set font family for the entire body */
+body {
+  margin: 0; /* Remove default margin */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; /* Set a modern font stack */
+  -webkit-font-smoothing: antialiased; /* Smooth fonts on WebKit browsers */
+  -moz-osx-font-smoothing: grayscale; /* Smooth fonts on Firefox */
+}
+
+/* Style for code elements */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; /* Set a monospace font for code */
+}
+
+/* Navigation bar styles */
+.navBar {
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  height: 8vh; /* Set height of the navbar */
+  justify-content: space-between; /* Space out items */
+  padding: 1%; /* Padding around the navbar */
+  padding-left: 3%; /* Left padding */
+  padding-right: 3%; /* Right padding */
+  align-items: center; /* Center items vertically */
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; /* Add shadow effect */
+}
+
+/* Title in the navigation bar */
+.nav-title {
+  cursor: pointer; /* Change cursor to pointer on hover */
+  width: 20%; /* Set width */
+} 
+
+/* Content area in the navigation bar */
+.nav-content {
+  width: 45%; /* Set width */
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow wrapping */
+  justify-content: space-around; /* Space items around */
+  align-items: center; /* Center items vertically */
+}
+
+/* Individual items in the navigation content */
+.nav-content div {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+  color: #8378e8; /* Set text color */
+  font-weight: 700; /* Set bold font weight */
+  font-size: 1.3rem; /* Set font size */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Change color on hover for span elements in nav content */
+.nav-content div span:hover {
+  color: darkgreen; /* Change color on hover */
+}
+
+/* Image styles in the navigation content */
+.nav-content img {
+  width: 50px; /* Set image width */
+  height: 50px; /* Set image height */
+  margin-right: 10px; /* Right margin */
+}
+
+/* Login form styles */
+.login {
+  width: 40%; /* Set width */
+  height: 50vh; /* Set height */
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow wrapping */
+  margin-left: 35%; /* Center the form */
+  margin-top: 4%; /* Top margin */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+}
+
+/* Heading in the login form */
+.login h1 {
+  width: 60%; /* Set width */
+  color: #224957; /* Set text color */
+  font-weight: 900; /* Set bold font weight */
+  font-size: 3rem; /* Set font size */
+}
+
+/* Input fields in the login form */
+.login input {
+  width: 60%; /* Set width */
+  margin: 1%; /* Margin around input */
+  height: 4vh; /* Set height */
+  border-radius: 20px; /* Rounded corners */
+  outline: none; /* Remove outline */
+  border: 1px solid #7064e5; /* Border color */
+  padding: 2%; /* Padding inside input */
+  font-size: 1.2rem; /* Set font size */
+}
+
+/* Button styles in the login form */
+.login button {
+  width: 60%; /* Set width */
+  height: 7vh; /* Set height */
+  border-radius: 20px; /* Rounded corners */
+  background-color: #7064e5; /* Background color */
+  color: white; /* Text color */
+  padding: 2%; /* Padding inside button */
+  font-size: 1.5rem; /* Set font size */
+  margin-left: 3%; /* Left margin */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Paragraph styles in the login form */
+.login p {
+  width: 60%; /* Set width */
+  color: #4f5463; /* Set text color */
+  font-weight: 700; /* Set bold font weight */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Product list container styles */
+.productList {
+  width: 100%; /* Full width */
+  display: flex; /* Use flexbox for layout */
+}
+
+/* Search bar input styles */
+.search-bar input {
+  margin-top: 2%; /* Top margin */
+  margin-left: 40%; /* Center the search bar */
+  width: 25%; /* Set width */
+  height: 5vh; /* Set height */
+  border-radius: 10px; /* Rounded corners */
+  outline: none; /* Remove outline */
+  border: 1px solid #7064e5; /* Border color */
+  padding: 6px; /* Padding inside input */
+  padding-left: 15px; /* Left padding */
+  font-size: 1.3rem; /* Set font size */
+}
+
+/* Filter sidebar styles */
+.filter {
+  position: fixed; /* Fixed position */
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow wrapping */
+  width: 15%; /* Set width */
+  height: 50%; /* Set height */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  background-color: #f0f0fc; /* Background color */
+  top: 35%; /* Position from the top */
+  border-radius: 0px 10px 10px 0px; /* Rounded corners */
+}
+
+/* Heading and paragraph styles in the filter */
+.filter h2, .filter p {
+  margin-left: 10%; /* Left margin */
+  width: 80%; /* Set width */
+}
+
+/* Category styles in the filter */
+.category {
+  width: 100%; /* Full width */
+  margin-left: 10%; /* Left margin */
+  margin-bottom: 10px; /* Bottom margin */
+}
+
+/* Span styles in the filter */
+.filter span {
+  width: 75%; /* Set width */
+  margin-bottom: 10px; /* Bottom margin */
+}
+
+/* Price range styles */
+.priceRange {
+  width: 70%; /* Set width */
+}
+
+/* Product display styles */
+.products {
+  margin-left: 18%; /* Left margin */
+  width: 80%; /* Set width */
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow wrapping */
+  justify-content: space-around; /* Space items around */
+  align-items: center; /* Center items vertically */
+}
+
+/* Single product card styles */
+.singleProductCard {
+  width: 30%; /* Set width */
+  height: 75vh; /* Set height */
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow wrapping */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  margin-top: 3%; /* Top margin */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; /* Shadow effect */
+}
+
+/* Image styles in the product card */
+.singleProductCard img {
+  width: 80%; /* Set image width */
+  height: 50vh; /* Set image height */
+}
+
+/* Heading styles in the product card */
+.singleProductCard h3, .singleProductCard h2 {
+  width: 90%; /* Set width */
+  margin-top: -10px; /* Negative top margin */
+  margin-bottom: -10px; /* Negative bottom margin */
+}
+
+/* Button styles in the product card */
+.singleProductCard button {
+  width: 80%; /* Set width */
+  height: 6vh; /* Set height */
+  background-color: #7064e5; /* Background color */
+  color: white; /* Text color */
+  font-size: 1.5rem; /* Set font size */
+  font-weight: 700; /* Set bold font weight */
+  border-radius: 10px; /* Rounded corners */
+  border: none; /* Remove border */
+  transition: all 0.5s ease-in-out; /* Smooth transition */
+}
+
+/* Button hover effect in the product card */
+.singleProductCard button:hover {
+  color: #7064e5; /* /* Change text color on hover */
+  background-color: white; /* Change background color on hover */
+  border: 1px solid #7064e5; /* Add border on hover */
+}
+
+/* Purchase section styles */
+.purchase {
+  position: fixed; /* Fixed position */
+  left: 0; /* Align to the left */
+  top: 30%; /* Position from the top */
+  background-color: #f0f0fc; /* Background color */
+  width: 15%; /* Set width */
+  font-size: 1.5rem; /* Set font size */
+  font-weight: 700; /* Set bold font weight */
+  color: #224957; /* Set text color */
+  text-align: center; /* Center text */
+}
+
+/* Button styles in the purchase section */
+.purchase button {
+  background-color: #8378e8; /* Background color */
+  width: 80%; /* Set width */
+  height: 5vh; /* Set height */
+  color: white; /* Text color */
+  font-size: 1.5rem; /* Set font size */
+  border: none; /* Remove border */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Quantity section styles */
+.quantity {
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow wrapping */
+  width: 100%; /* Full width */
+  justify-content: space-around; /* Space items around */
+  align-items: center; /* Center items vertically */
+  height: 50px; /* Set height */
+}
+
+/* Heading styles in the quantity section */
+.quantity h2 {
+  width: 60%; /* Set width */
+}
+
+/* Individual quantity item styles */
+.quantity div {
+  width: 25%; /* Set width */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+}
+
+/* Image styles in the quantity section */
+.quantity img {
+  width: 25px; /* Set image width */
+  height: 25px; /* Set image height */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Remove button styles */
+#remove {
+  background-color: #f14444; /* Background color */
+  color: white; /* Text color */
+  transition: all 0.5s ease-in-out; /* Smooth transition */
+}
+
+/* Remove button hover effect */
+#remove:hover {
+  color: #f14444; /* Change text color on hover */
+  background-color: white; /* Change background color on hover */
+  border: 1px solid #f14444; /* Add border on hover */
+}
+
+/* Order container styles */
+.order-container {
+  width: 80%; /* Set width */
+  margin: 20px auto; /* Center the container */
+  background: #fff; /* Background color */
+  padding: 20px; /* Padding inside container */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+/* Ordered date styling */
+.order-date {
+  font-size: 1.2rem; /* Set font size */
+  font-weight: bold; /* Set bold font weight */
+  color: #34495e; /* Set text color */
+  margin-bottom: 10px; /* Bottom margin */
+  border-bottom: 1px solid #ccc; /* Bottom border */
+  padding-bottom: 5px; /* Padding below */
+}
+
+/* Table styling for orders */
+.order-table {
+  width: 100%; /* Full width */
+  border-collapse: collapse; /* Collapse borders */
+  margin-top: 10px; /* Top margin */
+}
+
+/* Table header and cell styles */
+.order-table th,
+.order-table td {
+  border: 1px solid #ddd; /* Border color */
+  text-align: left; /* Align text to the left */
+  padding: 10px; /* Padding inside cells */
+}
+
+/* Header styles in the order table */
+.order-table th {
+  background-color: #2c3e50; /* Background color */
+  color: #fff; /* Text color */
+  font-weight: bold; /* Set bold font weight */
+  text-transform: uppercase; /* Uppercase text */
+}
+
+/* Even row styling in the order table */
+.order-table tr:nth-child(even) {
+  background-color: #f2f2f2; /* Background color for even rows */
+}
+
+/* Spinner styles */
+.spinner {
+  margin-left: 45%; /* Center the spinner */
+  margin-top: 20%; /* Top margin */
+}
