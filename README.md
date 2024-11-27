@@ -88,4 +88,6 @@ Author 👨‍💻
 Developed by Aman Agrawal.
 Feel free to reach out with suggestions, feedback, or to report issues.
 
+hosted link: https://shiny-pegasus-6b675c.netlify.app/
+
 Happy Shopping with BuyBusy! 🎉
